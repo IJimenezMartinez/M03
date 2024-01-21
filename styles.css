@@ -1,0 +1,76 @@
+body{
+    background-color: salmon;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px
+}
+
+.principal{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titles{
+    font-size: 2.4em;
+}
+
+.section{
+    margin: 4em;
+    background-color: bisque;
+    color: darkblue;
+    width: auto;
+}
+
+.cards{
+    border: 5px solid aliceblue;
+    width: fit-content;
+    padding: 2em 1em 1em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.cards:hover{
+    background-color: rgb(209, 112, 167);
+}
+
+.img-cards{
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gif{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#principal{
+    font-size: 2.5em;    
+}
+
+#cards-container{
+    
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 8px dashed antiquewhite;
+    border-radius: 40px;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

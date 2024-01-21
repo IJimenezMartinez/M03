@@ -3,60 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Mi primer sitio web</title>
 </head>
 <body>
     <header>
-        <h1>¡Hola Mundo!</h1>
-        <p>Mi nombre es Isabella Jimenez</p>
+        <div class="principal">
+            <h1 id="principal">¡Hola Mundo!</h1>
+            <p>Mi nombre es Isabella Jimenez</p>
+        </div>
+        
     </header>
-
-    <hr>
 
     <main>
 
-        <img src="./giphy.gif">
+        <img src="./giphy.gif" id="gif">
 
         <section>
+        <div class="section">
+            <h2 class="titles">Un poco sobre mi</h2>
+            <h3 class="titles">GUSTOS</h3>
+        </div>
+        
 
-        <h2>Un poco sorbre mi</h2>
-        <h3>GUSTOS</h3>
-
-        <article>
-            <h4>COMIDA</h4>
-            <div>
-                <img src="./lasagna.gif"">
-                <ul>
-                    <li>Lasagna</li>
-                    <li>Pizza</li>
-                    <li>Carne</li>
-                </ul>
-            </div>
-        </article>
-
-        <hr>
-
-        <article>
-            <h4>MUSIC</h4>
-            <div>
-                <img src="./edc.gif">
-                <ul>
-                    <li>EDC</li>
-                    <li>POP</li>
-                    <li>ROCK</li>
-                </ul>
-            </div>
-        </article>
+        <div id="cards-container">
+            <article>
+                <h4 class="titles">COMIDA</h4>
+                <div class="cards">
+                    <img src="./lasagna.gif" class="img-cards">
+                    <ul>
+                        <li>Lasagna</li>
+                        <li>Pizza</li>
+                        <li>Carne</li>
+                    </ul>
+                </div>
+            </article>
+                    
+            <article>
+                <h4 class="titles">MUSIC</h4>
+                <div class="cards">
+                    <img src="./edc.gif" class="img-cards">
+                    <ul>
+                        <li>EDC</li>
+                        <li>POP</li>
+                        <li>ROCK</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+        
 
         </section>
     </main>
 
     <hr>
     <footer>
-        <h3>creado por Isabella 2024</h3>
-        <hr>
-        <span>Facebook</span>
-        <span>Instagram</span>
+        <div class="footer">
+            <h3>creado por Isabella 2024</h3>
+            <span>Facebook</span>
+            <span>Instagram</span>
+        </div>
+        
     </footer>
 </body>
 </html>
